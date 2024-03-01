@@ -21,4 +21,9 @@ public class Address {
     private String city;
     private String state;
     private String country;
+    private Long setUserId;
+
+    public void setUserId(Long userId) {
+        this.setUserId = userId;
+    }
 }
